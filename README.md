@@ -1,2 +1,4 @@
 # Excel-Table-Automation
 VBA code used for compiling data from a table tracking document statuses.
+
+This code is used to generate email drafts from an excel table given a certain structure. The purpose of this code is to expedite the process of table data anaylsis. Using the first 7 columns of the table on Email Generator, the macro "Draft Email" will compile the table into a list of User Objects with their respective 8 memembers, the first 7 columns and a list containing the status of the remaining columns. An email is drafted from each user's information. A table of report history can be found in the sheet "Email History", listing the times a report was generated per user. The language of the email can be customized in the sheet "Customized Language." The sheet "How to Use" contains instructions on each button and a general overview of "Draft Email." 
